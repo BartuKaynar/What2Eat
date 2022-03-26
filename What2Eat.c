@@ -92,7 +92,8 @@ int main() {
         }
     }
     if (biggerThanThreshold == 0) {
-        printf("You are eating at home today");
+        printf("You are eating at home today!\n");
+        exit(0);
     } else if (biggerThanThreshold > 1) {
         bool tie = true;
         while (tie) {
